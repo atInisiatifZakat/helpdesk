@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="5.15.0@5c774aca4746caf3d239d9c8cadb9f882ca29352">
+  <file src="routes/api.php">
+    <UnusedClosureParam>
+      <code>$router</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="src/Exceptions/Handler.php">
+    <UnusedClosureParam>
+      <code>$e</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="src/Http/Controllers/Controller.php">
+    <UnusedClass>
+      <code>Controller</code>
+    </UnusedClass>
+  </file>
+  <file src="src/Http/Middleware/RedirectIfAuthenticated.php">
+    <PossiblyUnusedMethod>
+      <code>handle</code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Http/Middleware/ValidateSignature.php">
+    <PossiblyUnusedProperty>
+      <code>$except</code>
+    </PossiblyUnusedProperty>
+  </file>
+</files>
